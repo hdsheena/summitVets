@@ -1,0 +1,232 @@
+
+@font-face {
+    font-family: 'Trade Gothic';
+    src: url("https://static.wixstatic.com/ufonts/62701d_b44c7c343a624c1b8a9a783046ae0418/woff2/file.woff2") format("woff2"),
+        url("https://static.wixstatic.com/ufonts/62701d_b44c7c343a624c1b8a9a783046ae0418/woff/file.woff") format("woff"),
+        url("https://static.wixstatic.com/ufonts/62701d_b44c7c343a624c1b8a9a783046ae0418/ttf/file.ttf") format("ttf");
+}
+/* ===== SITE LAYOUT =================== */
+	.jv-page-container 	{
+        font-family: 'Trade Gothic';
+     }
+	.jv-page 			{ }
+	.jv-page-content 	{ }
+	.jv-page-header 	
+		h1 a:visited, .jv-page-header h1 a:hover, .jv-page-header h1 a  {
+			color: #323234;
+		}
+		.jv-page-header {
+			background-color: #91B0BF;
+			/* border:5px solid blue; */
+
+
+		}
+		
+		.jv-tabs 			{
+			background: #F68921;
+		}
+		.jv-tab {}
+		.jv-tab-active:before			{
+			border-top: 10px solid #F68921;
+			}
+		
+	 
+	.jv-page-body 		
+		h2, .jv-page-body  p {
+			color: #3B484F;
+		}
+		.jv-page-body  a:not(.jv-button)   {
+			color: #91B0BF;
+		}
+	 
+	.jv-wrapper 		{ }
+	.jv-footer 			{ }
+
+		.jv-page-header::before {
+			content: url("data:image/svg+xml,%3Csvg preserveAspectRatio='xMidYMid meet' data-bbox='0 0 1280 389.11' viewBox='0 0 1280 389.11' xmlns='http://www.w3.org/2000/svg' data-type='ugc' role='presentation' aria-hidden='true' aria-labelledby='svgcid--wrmsr1-i9bjmo'%3E%3Ctitle id='svgcid--wrmsr1-i9bjmo'%3E%3C/title%3E%3Cg%3E%3Cdefs%3E%3CradialGradient gradientUnits='userSpaceOnUse' gradientTransform='translate(0 -40)' r='636.22' fy='146.083' fx='932.017' cy='234.56' cx='640' id='svgcid-xkinph-yrwbv'%3E%3Cstop stop-color='%2391b0bf' offset='0'%3E%3C/stop%3E%3Cstop stop-color='%23829eab' offset='.13'%3E%3C/stop%3E%3Cstop stop-color='%235b6f79' offset='.39'%3E%3C/stop%3E%3Cstop stop-color='%233b484f' offset='.58'%3E%3C/stop%3E%3Cstop stop-color='%23384146' offset='.65'%3E%3C/stop%3E%3Cstop stop-color='%23343639' offset='.81'%3E%3C/stop%3E%3Cstop stop-color='%23323234' offset='.95'%3E%3C/stop%3E%3C/radialGradient%3E%3C/defs%3E%3Cpath d='M936.63 71.79a105.5 105.5 0 0 0-184.25-.39l92 91.19z' fill='%23f7963d'%3E%3C/path%3E%3Cpath d='M604.28 0 219.94 389.11h180.62L695 90.24zm-314.7 95.53L0 389.11h180.66l199.67-203.34zm443.91-3-292.4 296.58h180.44l202.69-206.28zm300.91-81.24L661 389.11h181.4l282.71-287.57zm154.85 287.92-85.4 89.9H1280zm-84.74-136.62L882.68 389.11h181l131.58-136.27z' fill='url(%23svgcid-xkinph-yrwbv)'%3E%3C/path%3E%3C/g%3E%3C/svg%3E");
+			position:
+			relative;
+			width: 25%;
+			height: auto;
+			display:
+			inline-block;
+			margin:0;
+			/* border:5px solid blue; */
+
+		}
+		.jv-logo a
+		{
+			font-size: 4vw;
+			/* border:5px solid green; */
+
+			/* padding-right: 5em; */
+			/* padding-left: 40vw; */
+			/* text-align: center; */
+		}
+		.jv-page-header > .jv-wrapper {
+			display: inline;
+			/* border:5px solid red; */
+			padding: initial;
+
+		}
+		.jv-logo {
+						/* background-image: url("data:image/svg+xml,%3Csvg preserveAspectRatio='xMidYMid meet' data-bbox='0 0 1280 389.11' viewBox='0 0 1280 389.11' xmlns='http://www.w3.org/2000/svg' data-type='ugc' role='presentation' aria-hidden='true' aria-labelledby='svgcid--wrmsr1-i9bjmo'%3E%3Ctitle id='svgcid--wrmsr1-i9bjmo'%3E%3C/title%3E%3Cg%3E%3Cdefs%3E%3CradialGradient gradientUnits='userSpaceOnUse' gradientTransform='translate(0 -40)' r='636.22' fy='146.083' fx='932.017' cy='234.56' cx='640' id='svgcid-xkinph-yrwbv'%3E%3Cstop stop-color='%2391b0bf' offset='0'%3E%3C/stop%3E%3Cstop stop-color='%23829eab' offset='.13'%3E%3C/stop%3E%3Cstop stop-color='%235b6f79' offset='.39'%3E%3C/stop%3E%3Cstop stop-color='%233b484f' offset='.58'%3E%3C/stop%3E%3Cstop stop-color='%23384146' offset='.65'%3E%3C/stop%3E%3Cstop stop-color='%23343639' offset='.81'%3E%3C/stop%3E%3Cstop stop-color='%23323234' offset='.95'%3E%3C/stop%3E%3C/radialGradient%3E%3C/defs%3E%3Cpath d='M936.63 71.79a105.5 105.5 0 0 0-184.25-.39l92 91.19z' fill='%23f7963d'%3E%3C/path%3E%3Cpath d='M604.28 0 219.94 389.11h180.62L695 90.24zm-314.7 95.53L0 389.11h180.66l199.67-203.34zm443.91-3-292.4 296.58h180.44l202.69-206.28zm300.91-81.24L661 389.11h181.4l282.71-287.57zm154.85 287.92-85.4 89.9H1280zm-84.74-136.62L882.68 389.11h181l131.58-136.27z' fill='url(%23svgcid-xkinph-yrwbv)'%3E%3C/path%3E%3C/g%3E%3C/svg%3E");
+			background-repeat: no-repeat; */
+						font-size: 4vw;
+						overflow: initial;
+						overflow-wrap:
+						normal;
+						position: relative;
+						display: inline;
+						white-space: initial;
+						width: 52vw;
+						/* border:solid; */
+		}
+		
+		.jv-logo::after {
+			/* background: #91B0BF;
+			content:
+			"";
+			height: 100%;
+			position: relative;
+			right: initial;
+			top: initial;
+			width: 1.5em; */
+		}
+
+		.jv-nav {
+			background: #91B0BF;
+
+			
+		}
+		.jv-nav-open-link {
+			color:#F68921;
+			/* font-size: 3vh;
+			width: 1vw;
+			bottom: 3vh;
+			left: 90vw;
+			position: relative;
+			right: initial;
+			top: initial; */
+		}
+		.jv-nav-open-link:before {
+			/* bottom: initial;
+			font-size: 1.2em;
+			height: 1em;
+			left: 90vw;
+			margin: auto;
+			position: relative;
+			right: initial;
+			top: initial;
+			width: 1vw; */
+		}
+
+/* ===== JOB LISTINGS PAGE  =================== */ 
+	
+	.jv-page-error 		{ }
+	.jv-page-body h2 	{ }
+
+	
+	h3.h2     			{ }
+	.jv-job-list th  	{ }
+	.jv-job-list td  	{ }
+	.jv-job-list .jv-job-list-name  		{ }
+	.jv-job-list .jv-job-list-location  	{ }
+
+
+	.jv-job-list-pane 		{}
+	.jv-job-categories 		{}
+	.jv-job-category-link 	{}
+	.jv-job-category-label 	{
+		color: #91B0BF;
+
+	}
+	.jv-job-category-meta 	{
+		color: #555;
+
+	}
+	.jv-list-icon 			{
+		color: #91B0BF;
+
+	}
+
+	.jv-job-list 			{}
+	.jv-job-list-inner 		{
+		background: #F68921;
+
+	}
+	.jv-job-item 			{}
+	.jv-list-link 			{}
+	.jv-list-label 			{
+		color: #fff;
+
+	}
+	.jv-meta 				{}
+
+
+
+/* ========== JOB DETAILS PAGE =============== */ 
+	
+	h2.jv-header 	{}
+
+	.jv-job-detail-meta,
+	.jv-apply-meta    		{}
+
+	.jv-button a {color: #323234;}
+	.jv-button, .jv-button:hover { background-color: #91B0BF; 
+	color: #323234;
+}
+	.jv-button-primary, .jv-button-primary:hover {
+		color:#323234;
+        background-color: #F68921; 
+    }
+
+	.jv-current-openings 	{ }
+	.jv-share-widget 		{ }
+
+	.jv-job-detail-bottom-actions,
+	.jv-apply-form-actions 	{ }
+
+	.jv-job-detail-location			{}
+
+	.jv-job-detail-top-actions 		{}
+	.jv-job-detail-description 		{}
+	.jv-job-detail-bottom-actions 	{}
+
+
+
+
+
+
+
+
+/* ========== APPLY PAGE ====================== */ 
+	
+	.jv-form 				{}
+	.jv-search-form 		{}
+
+	.jv-apply-step 			{}
+	.jv-required-label 		{}
+
+
+	.jv-sub-header 			{}
+	.jv-apply-meta 			{}
+	.jv-form 				{}
+	.jv-apply-form 			{}
+
+	.jv-apply-section 		{}
+	.jv-step-header 		{} 		/* Section Title */
+	.jv-form-field 			{}
+	.jv-form-field-control 		{}
+	.jv-form-field-control input {}
+	.jv-select-group 	 		{}
+	.jv-select-group label 		{}
+	.jv-select-group select 	{}
+
+	.note 					{}
+	
+
+
+
+
+
