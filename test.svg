@@ -1,0 +1,20 @@
+<svg viewBox="0 0 1280 389.11" xmlns="http://www.w3.org/2000/svg" width="128" height="39">
+  <g>
+    <defs>
+      <radialGradient cx="640" cy="234.56" fx="932.017" fy="146.083"
+                      gradientTransform="translate(0 -40)" gradientUnits="userSpaceOnUse" id="svgcid-dlusuj-f8m3tc" r="636.22">
+        <stop offset="0" stop-color="#91b0bf"></stop>
+        <stop offset=".13" stop-color="#829eab"></stop>
+        <stop offset=".39" stop-color="#5b6f79"></stop>
+        <stop offset=".58" stop-color="#3b484f"></stop>
+        <stop offset=".65" stop-color="#384146"></stop>
+        <stop offset=".81" stop-color="#343639"></stop>
+        <stop offset=".95" stop-color="#323234"></stop>
+      </radialGradient>
+    </defs>
+    <path d="M936.63 71.79a105.5 105.5 0 0 0-184.25-.39l92 91.19z" fill="#f7963d"></path>
+    <path
+      d="M604.28 0 219.94 389.11h180.62L695 90.24zm-314.7 95.53L0 389.11h180.66l199.67-203.34zm443.91-3-292.4 296.58h180.44l202.69-206.28zm300.91-81.24L661 389.11h181.4l282.71-287.57zm154.85 287.92-85.4 89.9H1280zm-84.74-136.62L882.68 389.11h181l131.58-136.27z"
+      fill="url(#svgcid-dlusuj-f8m3tc)"></path>
+  </g>
+</svg>
